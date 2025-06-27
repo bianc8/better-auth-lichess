@@ -8,7 +8,7 @@ const lichessHost = "https://lichess.org";
 
 export const auth = betterAuth({
   logger: {
-    level: "error",
+    level: "debug",
   },
   database: prismaAdapter(prisma, {
     provider: "postgresql",
